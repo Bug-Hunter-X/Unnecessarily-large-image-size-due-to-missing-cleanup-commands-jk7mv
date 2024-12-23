@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in Dockerfiles: neglecting to clean up after installing packages. This can significantly increase the image size, leading to slower builds and larger deployments. The `Dockerfile` shows the problematic code, while `Dockerfile_fixed` provides a corrected version. 
